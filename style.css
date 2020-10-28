@@ -23,9 +23,50 @@ nav{
     list-style: none;
 }
 .nav-links li{
-    padding-left: 10rem;
+    padding-left: 8rem;
     font-style: 1.2rem;
 }
 #logo{
     font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: rgb(241, 176, 54);
+}
+
+.big-text{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: rgba(68, 146, 209, 0.952);
+}
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    background: rgba(52, 214, 147, 0.623);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+.intro-text{
+    color: rgba(43, 156, 221, 0.788);
+    font-family: 'Vollkorn', serif;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
 }
