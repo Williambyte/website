@@ -44,7 +44,7 @@ nav{
 }
 
 .intro {
-    background: black;
+    background: rgb(25, 40, 53);
     position: fixed;
     top: 0;
     left: 0;
@@ -55,7 +55,7 @@ nav{
     align-items: center;
 }
 .slider {
-    background: rgba(52, 214, 147, 0.623);
+    background: rgb(5, 78, 100);
     position: fixed;
     top: 0;
     left: 0;
@@ -69,4 +69,13 @@ nav{
     font-size: 2rem;
     text-align: center;
     justify-content: center;
+}
+
+.hide {
+    background: rgb(25, 40, 53);
+    overflow: hidden;
+}
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
 }
